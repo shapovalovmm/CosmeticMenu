@@ -1,0 +1,134 @@
+@media only screen and (max-width: 1200px) {
+#sidebar {
+	padding: 10vh 75px;
+	left: -430px;
+}
+.toggle-btn {
+	left: 476px;
+	top:32px;
+	padding: 10px;
+}
+.toggle-btn span {
+	display: block;
+	width: 45px;
+	height: 6px;
+	margin:7px 0;
+}
+
+.title h1 {
+	font-size:2.3em;
+}
+.list_menu a {
+	font-size: 1.5em;
+}
+#toggle-btn.active {
+	left: 455px;
+}
+.menu_sub-list1 li a,
+.menu_sub-list2 li a,
+.menu_sub-list3 li a,
+.menu_sub-list4 li a{
+	font-size: 1.3em;
+}
+@media only screen and (max-width: 992px) {
+#sidebar {
+	padding: 10vh 60px;
+	left: -370px;
+}
+.toggle-btn {
+	left: 400px;
+	top:32px;
+	padding: 10px;
+}
+.toggle-btn span {
+	display: block;
+	width: 40px;
+	height: 6px;
+	margin:5px 0;
+}
+.title h1 {
+	font-size:2.5em;
+}
+.list_menu a {
+	font-size: 1.7em;
+}
+#toggle-btn.active {
+	left: 405px;
+}
+}
+/*768-480*/
+@media only screen and (max-width: 768px) {
+.toggle-btn span {
+	display: block;
+	width: 35px;
+	height: 5px;
+	margin:5px 0;
+}
+
+#toggle-btn.active {
+	left: 410px;
+}
+#sidebar.active::-webkit-scrollbar {
+  display: none;
+}
+}
+/*479-420*/
+@media only screen and (max-width: 480px) {
+.title h1 {
+	font-size:2.2em;
+}
+.list_menu a {
+	font-size: 1.5em;
+}
+#sidebar {
+	padding: 10vh 45px;
+	left: -320px;
+}
+.toggle-btn {
+	left: 350px;
+	top:32px;
+	padding: 10px;
+}
+.menu_sub-list1 li a,
+.menu_sub-list2 li a,
+.menu_sub-list3 li a,
+.menu_sub-list4 li a{
+	font-size: 1.2em;
+}
+#toggle-btn.active {
+	left: 350px;
+}
+
+}
+@media only screen and (max-width: 420px) {
+.title h1 {
+	font-size:1.8em;
+}
+.list_menu a {
+	font-size: 1.5em;
+}
+#sidebar {
+	padding: 10vh 30px;
+	left: -240px;
+}
+.toggle-btn {
+	left: 260px;
+	top:32px;
+	padding: 8px;
+}
+.toggle-btn span {
+	display: block;
+	width: 30px;
+	height: 5px;
+	margin:4px 0;
+}
+.menu_sub-list1 li a,
+.menu_sub-list2 li a,
+.menu_sub-list3 li a,
+.menu_sub-list4 li a{
+	font-size: 1.2em;
+}
+#toggle-btn.active {
+	left: 270px;
+}
+}

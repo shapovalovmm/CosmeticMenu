@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="main.css">
+	<link rel="stylesheet" href="adaptive.css">
+	<title>Romaschka</title>
+</head>
+<body>
+	<div id="toggle-btn" onclick= "openMenu()">
+			<span></span>
+			<span></span>
+			<span></span>
+	</div>
+	<div id = 'sidebar'>		
+		<div class="title"><h1>ROMASCHKA</h1></div>
+		<div class="list_menu">
+			<ul>
+				<li>
+					<a href = "#" class = "main_list">Kosmetyki</a>
+					<ul class = "menu_sub-list1">
+							<li> <a href="#">Dla włosów</a> </li>
+							<li> <a href="#">Dla oczu</a> </li>
+							<li> <a href="#">Na klatkę piersiową</a> </li>
+							<li> <a href="#">Dla ust</a> </li>
+							<li> <a href="#">Na dekolt</a> </li>
+							<li> <a href="#">Dla dzieci</a> </li>
+							<li> <a href="#">Na żołądek</a> </li>
+					</ul>					
+				</li>
+				<li>
+					<a href = "#" class = "main_list">Makijaż</a>
+					<ul class = "menu_sub-list2">
+							<li> <a href="#">Do brwi</a> </li>
+							<li> <a href="#">Dla włosów</a> </li>
+							<li> <a href="#">Dla oczu</a> </li>
+							<li> <a href="#">Do skórek</a> </li>
+							<li> <a href="#">Do twarzy</a> </li>
+							<li> <a href="#">Na nogi</a> </li>
+							<li> <a href="#">Do paznokci</a> </li>
+							<li> <a href="#">Do jamy ustnej</a> </li>
+							<li> <a href="#">Na ręce</a> </li>
+							<li> <a href="#">Dla ciała</a> </li>
+							<li> <a href="#">Na szyję</a> </li>
+					</ul>
+				</li>
+				<li>
+					<a href = "#" class = "main_list">Perfumeria</a>
+					<ul class = "menu_sub-list3">
+						<li> <a href="#">Damskie</a> </li>
+						<li> <a href="#">Męskie</a> </li>
+					</ul>
+				</li>
+				<li>
+					<a href = "#" class = "main_list">Akcesoria</a>
+					<ul class = "menu_sub-list4">
+						<li> <a href="#">Do golenia</a> </li>
+						<li> <a href="#">Do brwi</a> </li>
+						<li> <a href="#">Dla włosów</a> </li>
+						<li> <a href="#">Do depilacji</a> </li>
+						<li> <a href="#">Do makijażu</a> </li>
+						<li> <a href="#">Do manicure</a> </li>
+					</ul>
+				</li>
+			</ul>
+			<div class="menu_footer">
+				<p>©Kosmetika Roman 2022</p>
+			</div>
+		</div>
+	</div>
+		<div class="full-background">
+			<img src="nature.jpg">
+		</div>
+	<script>
+		function openMenu() {
+			document.getElementById("sidebar").classList.toggle('active')
+			document.getElementById("toggle-btn").classList.toggle('active');
+		}
+	</script>
+	<script src = "script.js"></script>
+</body>
+</html>
